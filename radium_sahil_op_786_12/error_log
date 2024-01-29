@@ -1,0 +1,113 @@
+[26-Nov-2023 09:57:48 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[26-Nov-2023 09:58:05 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[26-Nov-2023 09:58:05 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[26-Nov-2023 09:58:07 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[26-Nov-2023 09:58:08 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[26-Nov-2023 09:58:09 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[26-Nov-2023 09:58:10 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[28-Nov-2023 12:49:15 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[28-Nov-2023 12:49:50 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[28-Nov-2023 12:52:05 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home/radiumsa/public_html/radiumop/radium_sahil_op_786_12/show_server.php on line 8
+[24-Dec-2023 14:40:12 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:40:14 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:40:19 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:40:21 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:48:27 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:48:41 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:48:44 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:21 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:24 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:35 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:37 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:45 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:51 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:58:52 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:59:10 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 14:59:15 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 15:17:06 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 15:17:17 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 15:17:18 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 15:37:56 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[24-Dec-2023 15:37:58 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 11:52:21 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 11:52:24 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 11:52:30 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 11:53:17 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 11:53:21 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 11:53:21 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 12:40:47 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 12:41:05 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 12:41:32 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:08:47 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:09:47 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:09:50 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:09:50 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home2/fastsmso/public_html/radium_sahil_op_786_12/show_server.php on line 8
+[25-Dec-2023 13:10:01 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:10:28 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:10:35 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:10:35 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home2/fastsmso/public_html/radium_sahil_op_786_12/show_server.php on line 8
+[25-Dec-2023 13:10:39 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:10:39 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home2/fastsmso/public_html/radium_sahil_op_786_12/edit_server.php on line 82
+[25-Dec-2023 13:10:47 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:10:51 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 13:10:51 Asia/Kolkata] PHP Warning:  Undefined array key "id" in /home2/fastsmso/public_html/radium_sahil_op_786_12/show_server.php on line 8
+[25-Dec-2023 13:10:53 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 17:40:06 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 17:40:11 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 17:40:13 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 17:42:36 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 18:05:29 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 18:06:05 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 18:06:07 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 18:07:07 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 18:07:13 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 18:07:15 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 21:51:00 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 21:51:04 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[25-Dec-2023 21:51:07 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 09:34:35 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:35:40 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:35:52 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:36:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home2/fastsmso/public_html/include/connect.php:2
+Stack trace:
+#0 /home2/fastsmso/public_html/include/connect.php(2): mysqli->__construct()
+#1 /home2/fastsmso/public_html/include/config.php(12): require_once('/home2/fastsmso...')
+#2 /home2/fastsmso/public_html/radium_sahil_op_786_12/auth.php(2): require_once('/home2/fastsmso...')
+#3 /home2/fastsmso/public_html/radium_sahil_op_786_12/edit_user.php(7): include('/home2/fastsmso...')
+#4 {main}
+  thrown in /home2/fastsmso/public_html/include/connect.php on line 2
+[26-Dec-2023 13:36:04 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:37:04 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:37:28 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:37:30 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:37:31 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:37:45 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:43:12 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:43:28 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:44:02 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:44:04 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:44:07 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:45:21 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:45:29 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:45:32 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:50:15 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:50:31 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:50:36 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:50:48 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:50:51 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:50:53 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:51:46 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:51:51 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:51:57 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:52:08 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:52:31 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:52:37 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:52:40 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:53:01 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:53:20 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:54:53 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:55:13 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:55:23 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 13:58:40 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 14:17:28 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2
+[26-Dec-2023 14:17:33 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home2/fastsmso/public_html/include/session.php on line 2

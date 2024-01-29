@@ -1,0 +1,10 @@
+RewriteEngine On
+# Developed By @radiumsahil
+# If the request is not a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# And if the corresponding .php file exists
+RewriteCond %{REQUEST_FILENAME}.php -f
+# Rewrite the URL to add .php extension
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# Enable custom error pages
+ErrorDocument 404 /404.php
