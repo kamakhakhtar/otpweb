@@ -1,7 +1,34 @@
 <?php 
-   $page_name = "Number History";
+   
    include 'include/header-main.php'; 
    ?>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Collect and sanitize input data
+    $type = isset($_POST['type']) ? filter_var($_POST['type'], FILTER_SANITIZE_STRING) : '';
+    $category = isset($_POST['category']) ? filter_var($_POST['category'], FILTER_SANITIZE_STRING) : '';
+    $priority = isset($_POST['priority']) ? filter_var($_POST['priority'], FILTER_SANITIZE_STRING) : '';
+    $problemDescription = isset($_POST['problemDescription']) ? filter_var($_POST['problemDescription'], FILTER_SANITIZE_STRING) : '';
+    $details = isset($_POST['details']) ? filter_var($_POST['details'], FILTER_SANITIZE_STRING) : '';
+
+    // Prepare email content
+    $to = 'november11196@gmail.com';
+    $subject = 'New Inquiry from OTP-Ninja';
+    $message = "Type: $type\nCategory: $category\nPriority: $priority\nProblem Description: $problemDescription\nDetails: $details";
+    $headers = 'From: webmaster@example.com' . "\r\n" .
+               'Reply-To: webmaster@example.com' . "\r\n" .
+               'X-Mailer: PHP/' . phpversion();
+
+    // Send the email
+    mail($to, $subject, $message, $headers);
+
+    // Redirect or display a success message
+    echo 'Email has been sent.';
+    // Or redirect using header('Location: thank_you_page.php');
+}
+?>
+
 <style>
    .trx{
    background-color: #ff0013 !important;
@@ -58,7 +85,7 @@
                               <div class="nk-block mb-3">
                                  <div class="card card-bordered">
                                     <div class="card-inner">
-                                       <form action="#" class="form-contact">
+                                       <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="form-contact">
                                           <div class="row g-4">
                                              <div class="col-md-6">
                                                 <div class="custom-control custom-radio"><input type="radio" class="custom-control-input" name="type" id="type-general" checked><label class="custom-control-label" for="type-general">A general enquiry</label></div>
@@ -119,7 +146,8 @@
                                                    </div>
                                                 </div>
                                              </div>
-                                             <div class="col-12"><a href="#" class="btn btn-primary">Email Us</a></div>
+                                             <div class="col-12"><button type="submit" class="btn btn-primary">Email Us</button></div>
+                                             </form>
                                           </div>
                                        </form>
                                     </div>

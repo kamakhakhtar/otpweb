@@ -23,7 +23,7 @@ require_once __DIR__ . '/../class/class.control.php';
 $site_sql = $conn->query("SELECT * FROM settings WHERE id='1'");
 $site_data = $site_sql->fetch_assoc();
 $theam = $site_data['theam'];
-$website_url = 'https://otp-ninja.com/';
+$website_url = $site_data['web_url'];
 $web_name=$site_data['web_name'];
 
 define("THEAM", $theam);

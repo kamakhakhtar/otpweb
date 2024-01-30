@@ -1,5 +1,4 @@
 <?php 
-$page_name = "Buy Numbers";
 include 'include/header-main.php'; 
 ?>
 <body class="nk-body bg-white npc-subscription has-aside " >

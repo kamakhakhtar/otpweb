@@ -4,21 +4,19 @@
         <h6 class="overline-title">Main</h6>
             </li>
             
-            <li class="nk-menu-item"><a href="home" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-home"></em></span><span class="nk-menu-text">Home</span></a></li>
+            <li class="nk-menu-item"><a href="index" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-home"></em></span><span class="nk-menu-text">Home</span></a></li>
             <li class="nk-menu-item"><a href="check-price" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-sign-dollar"></em></em></span><span class="nk-menu-text">Check Price</span></a></li>
-            <li class="nk-menu-item"><a href="instruction" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-pen2"></em></span><span class="nk-menu-text">Instruction</span></a></li>
+            <li class="nk-menu-item"><a href="instruction" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-list-ol"></em></span><span class="nk-menu-text">Instruction</span></a></li>
             
-            
-            
-          
-
+        
+        <?php if(isset($_SESSION['token'])){ ?>
         <li class="nk-menu-heading">
-        <h6 class="overline-title">Dashboard</h6>
+            <h6 class="overline-title">Dashboard</h6>
         </li>
         <li class="nk-menu-item"><a href="dashboard" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-dashboard"></em></span><span class="nk-menu-text">Dashboard</span></a></li>
-        <?php if($userdata['type']=="admin"){ ?>
+        <?php  if($userdata['type']=="admin"){ ?>
         <li class="nk-menu-item"><a href="radium_sahil_op_786_12" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-user-c"></em></span><span class="nk-menu-text">Admin Dashboard</span></a></li>
-        <?php } ?>
+        
 
         <li class="nk-menu-heading">
         <h6 class="overline-title">Services</h6>
@@ -35,7 +33,7 @@
         <li class="nk-menu-item"><a href="recharge" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-bitcoin"></em></span><span class="nk-menu-text">Recharge</span></a></li>
         <li class="nk-menu-item"><a href="transactions" class="nk-menu-link"><span class="nk-menu-icon"><em class="icon ni ni-coin"></em></span><span class="nk-menu-text">Transaction History</span></a></li>
 
-        
+        <?php }} ?>
 
 
         <li class="nk-menu-heading">
@@ -83,6 +81,8 @@
         <li class="nk-menu-item"><a href="faqs" class="nk-menu-link"><span class="nk-menu-text">FAQs</span></a></li>
         <li class="nk-menu-item"><a href="contact" class="nk-menu-link"><span class="nk-menu-text">Contact</span></a></li>
         <li class="nk-menu-item"><a href="support" class="nk-menu-link"><span class="nk-menu-text">Support</span></a></li>
+        <li class="nk-menu-item"><a href="rules" class="nk-menu-link"><span class="nk-menu-text">Rules</span></a></li>
+
     </ul>
     
 </div>

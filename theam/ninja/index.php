@@ -1,154 +1,178 @@
-<!DOCTYPE html>
-<html lang="zxx" class="js">
-    <?php
-$page_name = "Login";
-include 'include/header-main-auth.php';
-?>
-
-    <body class="nk-body bg-white npc-default pg-auth">
-    
-    
-        <div class="nk-app-root">
-            <div class="nk-main">
-                <div class="nk-wrap nk-wrap-nosidebar">
-                    
-                    <div class="nk-content">
-
-
-                    <div class="toast-container position-absolute top-0 end-0 p-3">
-                        <div class="toast"><div class="toast-header"><strong class="me-auto text-primary">Error</strong><small>a minute ago</small><button type="button" class="close" data-dismiss="toast" aria-label="Close"><em class="icon ni ni-cross-sm"></em></button></div><div class="toast-body"> Hello, world! This is a toast message. </div></div>
-                    </div>
-
-                        <div class="nk-split nk-split-page nk-split-lg">
-                            
-                            <div class="nk-split-content nk-block-area nk-block-area-column nk-auth-container bg-white">
-                                
-                                <div class="absolute-top-right d-lg-none p-3 p-sm-5">
-                                    <a href="#" class="toggle btn-white btn btn-icon btn-light" data-target="athPromo"><em class="icon ni ni-info"></em></a>
-                                </div>
-                                
-                                
-                                <div class="nk-block nk-block-middle nk-auth-body">
-                                    <div class="brand-logo pb-5">
-                                        <a href="index.html" class="logo-link">
-                                            <img class="logo-light logo-img logo-img-lg" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo2x.png 2x" alt="logo" />
-                                            <img class="logo-dark logo-img logo-img-lg" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo-dark.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo-dark2x.png 2x" alt="logo-dark" />
-                                        </a>
-                                    </div>
-                                    
-                                    <div class="nk-block-head">
-                                        <div class="nk-block-head-content">
-                                            <h5 class="nk-block-title">Sign-In</h5>
-                                            <div class="nk-block-des">
-                                                <p>
-                                                    Access the OTP Ninja panel using your email and passcode.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    
-                                    <from>
-                                        <div class="form-group">
-                                            <div class="form-label-group"><label class="form-label" for="email-address">Email or Username</label><a class="link link-primary link-sm" tabindex="-1" href="#">Need Help?</a></div>
-                                            <div class="form-control-wrap">
-                                                <input  type="email" class="form-control form-control-lg" required id="email" placeholder="Enter your email address or username" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="form-label-group"><label class="form-label" for="password">Passcode</label><a class="link link-primary link-sm" tabindex="-1" href="pages/auths/auth-reset.html">Forgot Code?</a></div>
-                                            <div class="form-control-wrap">
-                                                <a tabindex="-1" href="#" class="form-icon form-icon-right passcode-switch lg" data-target="password">
-                                                    <em class="passcode-icon icon-show icon ni ni-eye"></em><em class="passcode-icon icon-hide icon ni ni-eye-off"></em>
-                                                </a>
-                                                <input  type="password" class="form-control form-control-lg" required id="password" placeholder="Enter your passcode" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <button class="btn btn-lg btn-primary btn-block" id="login">
-                                                Sign in
-                                            </button>
-                                        </div>
-                                    </form>
-                                    <div class="form-note-s2 pt-4">
-                                        New on our platform?
-                                        <a href="register">Create an account</a>
-                                    </div>
-                                    
-                                 
-                                </div>
-                                <div class="nk-block nk-auth-footer">
-                                    <div class="nk-block-between">
-                                        <ul class="nav nav-sm">
-                                            <li class="nav-item">
-                                                <a class="link link-primary fw-normal py-2 px-3" href="#">Terms & Condition</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="link link-primary fw-normal py-2 px-3" href="#">Privacy Policy</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="link link-primary fw-normal py-2 px-3" href="#">Help</a>
-                                            </li>
-                                            <li class="nav-item dropup">
-                                                <a class="dropdown-toggle dropdown-indicator has-indicator link link-primary fw-normal py-2 px-3" data-bs-toggle="dropdown" data-offset="0,10"><small>English</small></a>
-                                                <div class="dropdown-menu dropdown-menu-sm dropdown-menu-end">
-                                                    <ul class="language-list">
-                                                        <li>
-                                                            <a href="#" class="language-item"><img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/flags/english.png" alt="" class="language-flag" /><span class="language-name">English</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="language-item"><img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/flags/spanish.png" alt="" class="language-flag" /><span class="language-name">Español</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="language-item"><img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/flags/french.png" alt="" class="language-flag" /><span class="language-name">Français</span></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="language-item"><img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/flags/turkey.png" alt="" class="language-flag" /><span class="language-name">Türkçe</span></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mt-3">
-                                        <p>&copy; 2023 Otpninja. All Rights Reserved.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="nk-split-content nk-split-stretch bg-lighter d-flex toggle-break-lg toggle-slide toggle-slide-right" data-toggle-body="true" data-content="athPromo" data-toggle-screen="lg" data-toggle-overlay="true">
-                                <div class="slider-wrap w-100 w-max-550px p-3 p-sm-5 m-auto">
-                                    <div class="slider-init" data-slick='{"dots":true, "arrows":false}'>
-                                        <div class="slider-item">
-                                            <div class="nk-feature nk-feature-center">
-                                                <div class="nk-feature-img">
-                                                    <img class="round" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/otp-ninja.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/slides/promo-a2x.png 2x" alt="" />
-                                                </div>
-                                                <div class="nk-feature-content py-4 p-sm-5">
-                                                    <h4>OTP Ninja</h4>
-                                                    <p>
-                                                        You can start to create your products easily with its user-friendly design & most completed responsive layout.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slider-dots"></div>
-                                    <div class="slider-arrows"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-    </body>
-
-    <?php
-include 'include/footer-main-auth.php';
-?>
 <?php 
-include("include/custom_js.php");
-?>   
-</html>
+   $page_name = "Number History";
+   include 'include/header-main.php'; 
+   ?>
+<style>
+   .trx{
+   background-color: #ff0013 !important;
+   }
+   .usdt{
+   background-color: #26a17b !important;
+   }
+   .promo{
+   background-color:#383838;
+   }
+   .mt-10{
+   margin-top:10;
+   }
+   .mb-20{
+   margin-bottom:20px;
+   }
+   .mb-30{
+   margin-bottom:30px;
+   }
+   .mb-50{
+   margin-bottom:50px;
+   }
+</style>
+<input type="hidden" id="token" value="<?php echo $_SESSION['token'];?>">   
+<body class="nk-body bg-white npc-subscription has-aside " >
+   <div class="nk-app-root">
+      <div class="nk-main ">
+         <div class="nk-wrap ">
+            <?php include 'include/navbar.php'; ?>
+            <div class="nk-content ">
+               <div class="container wide-xl">
+                  <div class="nk-content-inner">
+                     <?php include 'include/sidebar.php'; ?>
+                     <div class="nk-content-body">
+                        
+                        <div class="nk-content-wrap">
+                           <div class="components-preview wide-md mx-auto">
+                              <div class="nk-block">
+                                 <article class="entry">
+                                    <h3>Use Virtual Numbers for SMS Verification <br> Without Your Personal Number</h3>
+                                    <p>When you sign up for social media, messaging apps, online marketplaces, and other websites, they often ask for your phone number to send a verification SMS. OTP-Ninja offers a way to skip this step using a temporary virtual phone number instead of your own. This lets you create multiple accounts on various websites by getting the verification code online, without needing to use your personal phone number.</p>
+                                    
+                                    <h4 class="mb-30">About the OTP-Ninja service</h4>
+                                    <div class="nk-block">
+                                       <div class="card card-bordered">
+                                          <div class="card-inner">
+                                             <div class="nk-help">
+                                                <div class="nk-help-img">
+                                                   <img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/icons/world1.png" class="card-img-top mb-20" alt="">
+                                                </div>
+                                                <div class="nk-help-text">
+                                                   <h5 class="card-title">Over 500,000 Online Numbers from 180+ Countries</h5>
+                                                   <p class="card-text">Access virtual phone numbers from over 180 countries, including the UK, USA, India, Germany, and many more, for easy online registration.</p>
+                                                </div>
+                                                <div class="nk-help-action"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="nk-block">
+                                       <div class="card card-bordered">
+                                          <div class="card-inner">
+                                             <div class="nk-help">
+                                                <div class="nk-help-img">
+                                                   <img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/icons/dailing.png" class="card-img-top mb-20" alt="">
+                                                </div>
+                                                <div class="nk-help-text">
+                                                   <h5 class="card-title">New Virtual Numbers Added Daily</h5>
+                                                   <p class="card-text">New virtual numbers are added daily for unlimited message receipt from websites or apps. Each SMS number costs only INR 1, with no monthly mobile operator fees.</p>
+                                                </div>
+                                                <div class="nk-help-action"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="nk-block">
+                                       <div class="card card-bordered">
+                                          <div class="card-inner">
+                                             <div class="nk-help">
+                                                <div class="nk-help-img">
+                                                   <img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/icons/sms.png" class="card-img-top mb-20" alt="">
+                                                </div>
+                                                <div class="nk-help-text">
+                                                   <h5 class="card-title">Use a Number Temporarily and Get SMS Repeatedly</h5>
+                                                   <p class="card-text">You can get a phone number any time of the day, available 24/7. This service is fully automated, so you receive SMS verification codes instantly. With this quick and easy process, you can create any account in just 3 minutes.</p>
+                                                </div>
+                                                <div class="nk-help-action"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="nk-block">
+                                       <div class="card card-bordered">
+                                          <div class="card-inner">
+                                             <div class="nk-help">
+                                                <div class="nk-help-img">
+                                                   <img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/icons/daily.png" class="card-img-top mb-20" alt="">
+                                                </div>
+                                                <div class="nk-help-text">
+                                                   <h5 class="card-title">New Virtual Numbers Added Daily</h5>
+                                                   <p class="card-text"> Get new virtual numbers daily to receive unlimited messages from any website or app, starting at just INR 1 per SMS, with no monthly mobile operator fees.</p>
+                                                </div>
+                                                <div class="nk-help-action"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="nk-block mb-50">
+                                       <div class="card card-bordered">
+                                          <div class="card-inner">
+                                             <div class="nk-help">
+                                                <div class="nk-help-img">
+                                                   <img src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/icons/api.png" class="card-img-top mb-20" alt="">
+                                                </div>
+                                                <div class="nk-help-text">
+                                                   <h5 class="card-title">API for Developers and Users</h5>
+                                                   <p class="card-text">Developers can easily manage mass account registrations with our SMS service, including high-quality PROXY/VPN, user agents, and reliable software for a streamlined process.</p>
+                                                </div>
+                                                <div class="nk-help-action"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <h4 class="mb-30">Ways to Use a Temporary Phone Number:</h4>
+                                    <div class="card card-bordered card-preview">
+                                       <div class="card-inner">
+                                          <h5 class="card-title">Using Virtual Numbers for Multiple Account Registrations</h5>
+                                          <p class="card-text">When you sign up for a website, they usually ask for a phone number and often limit it to one account per number. With virtual numbers, you can create many social media accounts without any limits. This is great for webmasters, social media, and online reputation managers who need multiple profiles to manage and promote their projects.</p>
+                                       </div>
+                                    </div>
+
+                                    <div class="card card-bordered card-preview">
+                                       <div class="card-inner">
+                                          <h5 class="card-title">Stay Private</h5>
+                                          <p class="card-text">Everyone knows that if you have someone's phone number, you might find out their personal details like last name, first name, passport number, and address. But when you use an SMS activation service with a temporary number, your personal information stays safe and private.</p>
+                                       </div>
+                                    </div>
+
+                                    <div class="card card-bordered card-preview">
+                                       <div class="card-inner">
+                                          <h5 class="card-title">Bypass Country Restrictions with a Temporary Number</h5>
+                                          <p class="card-text">Sometimes, websites don't let people from certain countries sign up. For example, a Ukrainian site might block Russian users, and vice versa. Also, text messages from a Belarusian phone operator might not reach someone in another country. In these cases, you can use a temporary phone number to receive SMS and access these websites.</p>
+                                       </div>
+                                    </div>
+
+                                    <div class="card card-bordered card-preview">
+                                       <div class="card-inner">
+                                          <h5 class="card-title">Save Money with Temporary Numbers for Promotions</h5>
+                                          <p class="card-text">Many online services and stores offer discounts or gifts if you provide a phone number. Usually, you get one gift per number. Using virtual numbers for SMS, you can get around these limits and enjoy more bonuses without giving out your personal phone number.</p>
+                                       </div>
+                                    </div>
+
+                                    <div class="card card-bordered card-preview">
+                                       <div class="card-inner">
+                                          <h5 class="card-title">Stay Safe from Scams</h5>
+                                          <p class="card-text">You might have seen websites that ask for your phone number to download files faster. If you enter your number there, you could accidentally sign up for costly services or subscriptions. It's safer to use a disposable number instead.</p>
+                                       </div>
+                                    </div>
+                                   
+                                 </article>
+                              </div>
+                           </div>
+                        </div>
+                        <?php include 'include/footer.php'; ?>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <?php include 'include/footer-main.php'; ?>
+</body>

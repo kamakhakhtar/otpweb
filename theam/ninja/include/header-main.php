@@ -7,12 +7,8 @@
     <title>Subscription Dashboard | DashLite Admin Template</title>
     <link rel="stylesheet" href="<?php echo WEBSITE_URL; ?>/theam/ninja/assets/css/dashlite.css?ver=3.2.3">
     <link id="skin-default" rel="stylesheet" href="<?php echo WEBSITE_URL; ?>/theam/ninja/assets/css/theme.css?ver=3.2.3">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> -->
-    <!-- Bootstrap Selectpicker CSS -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css"> -->
-
-    
-    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" /> -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   
     
     <style>
         .p10{
