@@ -41,7 +41,7 @@
                         <p>Check out all your payment history. You can also download or print your invoice.</p>
                     </div>
                     </div>
-                    <div class="nk-wg1-action"><a href="transaction" class="link"><span>Payment History</span> <em class="icon ni ni-chevron-right"></em></a></div>
+                    <div class="nk-wg1-action"><a href="transactions" class="link"><span>Payment History</span> <em class="icon ni ni-chevron-right"></em></a></div>
                 </div>
             </div>
         </div>
