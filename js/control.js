@@ -39,8 +39,8 @@ $(document).ready(function () {
             data: params,
             error: function (e) {
                 console.log(e);
-                // toast.error('An error occurred during login.');
-                updateToast('error', 'An error occurred during login.');
+                
+                toastr.clear(), NioApp.Toast("An error occurred during login.", "error", {position: "top-right"})
                 $('#login').html("Sign In");
                 $('#login').prop("disabled", false);
             },
@@ -102,14 +102,23 @@ $(document).ready(function () {
             success: function (json) {
                 $('#change_pass').html("Save").prop("disabled", false);
                 if (json.status === "1") {
-                    toast.success(json.msg);
+                    
+                    toastr.clear(), NioApp.Toast(json.msg, "success", {
+                        position: "top-right"
+                    })
                 } else {
-                    toast.error(json.msg);
+                    
+                    toastr.clear(), NioApp.Toast(json.msg, "error", {
+                        position: "top-right"
+                    })
                 }
             },
             error: function (e) {
                 console.log(e);
-                toast.error('An error occurred during password change.');
+                
+                toastr.clear(), NioApp.Toast('An error occurred during password change.', "error", {
+                    position: "top-right"
+                })
                 $('#change_pass').html("Save").prop("disabled", false);
             }
         });
@@ -123,20 +132,32 @@ $(document).ready(function () {
         var refer_id = $("#refer_id").val();
      
         if (name === '' || email === '' || password === '' || confirm_password === '') {
-            toast.error('Please Fill All Details');
+            
+            toastr.clear(), NioApp.Toast('Please Fill All Details.', "error", {
+                position: "top-right"
+            })
             return; // Stop execution if old or new password is blank
         }
         if(password !== confirm_password){
-                  toast.error('Password And Confirm Password Not Match');
+                  
+                  toastr.clear(), NioApp.Toast('Password And Confirm Password Not Match', "error", {
+                    position: "top-right"
+                })
             return; // Stop execution if old or new password is blank
           }
       if (!validateEmail(email)) {
-            toast.error('Please Enter Valid Email');
+            
+            toastr.clear(), NioApp.Toast('Please Enter Valid Email', "error", {
+                position: "top-right"
+            })
             return;
         }
          var recaptchaResponse = grecaptcha.getResponse();
             if (!recaptchaResponse) {
-          toast.error("Please Fill Captcha");
+          
+          toastr.clear(), NioApp.Toast('Please Fill Captcha', "error", {
+            position: "top-right"
+        })
          return;
             } 
         // Disable the button and show loading spinner
@@ -158,14 +179,23 @@ $(document).ready(function () {
                 $('#register').html("Sign Up").prop("disabled", false);
                 grecaptcha.reset(widgetId);
                 if (json.status === "1") {
-                    toast.success(json.msg);
+                    
+                    toastr.clear(), NioApp.Toast(json.msg, "success", {
+                        position: "top-right"
+                    })
                 } else {
-                    toast.error(json.msg);
+                    
+                    toastr.clear(), NioApp.Toast(json.msg, "error", {
+                        position: "top-right"
+                    })
                 }
             },
             error: function (e) {
                 console.log(e);
-                toast.error('An error occurred during Registration');
+                
+                toastr.clear(), NioApp.Toast('An error occurred during Registration', "error", {
+                    position: "top-right"
+                })
                 $('#register').html("Sign Up").prop("disabled", false);
             }
         });

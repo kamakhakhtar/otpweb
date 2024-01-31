@@ -24,7 +24,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message, $headers);
 
     // Redirect or display a success message
-    echo 'Email has been sent.';
+    if (mail($to, $subject, $message, $headers)) {
+      echo "<script>alert('Email has been sent.');</script>";
+  }
     // Or redirect using header('Location: thank_you_page.php');
 }
 ?>

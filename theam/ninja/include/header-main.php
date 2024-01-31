@@ -2,9 +2,9 @@
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <meta name="description" content="Purchase online virtual numbers starting at just $0.014 for SMS verification. Easily bypass OTP for services like Amazon, Discord, Naver, Instagram, WhatsApp, and Google by receiving SMS online.">
     <link rel="shortcut icon" href="<?php echo WEBSITE_URL; ?>/theam/ninja/images/favicon.png">
-    <title>Subscription Dashboard | DashLite Admin Template</title>
+    <title>SMS Verification Online: Get SMS Codes Instantly</title>
     <link rel="stylesheet" href="<?php echo WEBSITE_URL; ?>/theam/ninja/assets/css/dashlite.css?ver=3.2.3">
     <link id="skin-default" rel="stylesheet" href="<?php echo WEBSITE_URL; ?>/theam/ninja/assets/css/theme.css?ver=3.2.3">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
