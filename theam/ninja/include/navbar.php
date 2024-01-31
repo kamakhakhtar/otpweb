@@ -2,7 +2,11 @@
 // Assuming $userdata['name'] contains the user's name
 if(isset($_SESSION['token'])){
 	// header('location: index');
-
+   $wallet = new radiumsahil();
+   
+   $userwallet = $wallet->userwallet();
+   $userdata = $wallet->userdata(); 
+   $wallet->closeConnection();
 $userName = $userdata['name'];
 
 // Function to get initials from a name
@@ -22,7 +26,7 @@ $initials = getInitials($userName);
 <div class="nk-header nk-header-fixed is-light  nk-header-fixed">
                   <div class="container-lg wide-xl">
                      <div class="nk-header-wrap">
-                        <div class="nk-header-brand"><a href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/index.html" class="logo-link"><img class="logo-light logo-img" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo2x.png 2x" alt="logo"><img class="logo-dark logo-img" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo-dark.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo-dark2x.png 2x" alt="logo-dark"></a></div>
+                        <div class="nk-header-brand"><a href="<?php echo WEBSITE_URL; ?>" class="logo-link"><img class="logo-light logo-img" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo2x.png 2x" alt="logo"><img class="logo-dark logo-img" src="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo-dark.png" srcset="<?php echo WEBSITE_URL; ?>/theam/ninja/images/logo-dark2x.png 2x" alt="logo-dark"></a></div>
                         
                        
                         <div class="nk-header-tools">
@@ -41,15 +45,15 @@ $initials = getInitials($userName);
                                     <div class="user-card">
                                        <div class="user-avatar"><span><?php echo $initials; ?></span></div>
                                        <div class="user-info"><span class="lead-text"><?php echo $userdata['name'];?></span><span class="sub-text"><?php echo $userdata['email'];?></span></div>
-                                       <div class="user-action"><a class="btn btn-icon me-n2" href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile-setting.html"><em class="icon ni ni-setting"></em></a></div>
+                                       <!-- <div class="user-action"><a class="btn btn-icon me-n2" href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile-setting.html"><em class="icon ni ni-setting"></em></a></div> -->
                                     </div>
                                  </div>
                                  <div class="dropdown-inner">
                                     <ul class="link-list">
-                                       <li><a href="#"><em class="icon ni ni-coins"></em><span>Balance :<span id="current_balance">55</span></span></a></li>
-                                       <li><a href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                       <li><a href="#"><em class="icon ni ni-coins"></em><span>Balance :<span id="current_balance"><?php echo $userwallet['balance'];?></span></span></a></li>
+                                       <!-- <li><a href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
                                        <li><a href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile-setting.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
-                                       <li><a href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                       <li><a href="<?php echo WEBSITE_URL; ?>/theam/ninja/subscription/profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li> -->
                                     </ul>
                                  </div>
                                  <div class="dropdown-inner">
